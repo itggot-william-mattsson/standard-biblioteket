@@ -1,20 +1,9 @@
+require_relative '../lib/min_of_three'
+
 def min_of_four(num1, num2, num3, num4)
-    if num1 < num2
-        smallest = num1
-    else
-        smallest = num2
+    min = min_of_three(num1, num2, num3)
+    if num4 < min
+        num4 = min
     end
-
-    if smallest < num3
-        smallest = smallest
-    else
-        smallest = num3
-    end
-
-    if smallest < num4
-        smallest = smallest
-    else
-        smallest = num4
-    end
+    return min
 end
-

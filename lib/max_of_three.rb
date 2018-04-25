@@ -1,11 +1,8 @@
-def max_of_three(num1, num2, num3)
-    if num1 < num2
-        max = num2
-    else
-        max = num1
-    end
+require_relative '../lib/max_of_two'
 
-    if max < num3
+def max_of_three(num1, num2, num3)
+    max = max_of_two(num1, num2)
+    if max = num3
         max = num3
     end
     return max

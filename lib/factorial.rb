@@ -1,5 +1,5 @@
-def fractional(from)
-    n = from
+def fractional(num)
+    n = num
     product = 1
     while n > 0
         product = product * n
