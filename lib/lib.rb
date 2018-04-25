@@ -1,1 +1,1 @@
-require_relative('min_of_two.rb')
+require_relative('')
