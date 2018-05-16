@@ -9,14 +9,10 @@
 #  #==> True
 #
 # Retunerar ifall det är sant eller falskt
-def between_strict(num1, num2, num3)
-    strict = num3 - num2
-    strict = strict / 2
-    if num1 == strict
+def ends_with(article, letter)
+    if article[-1] == letter
         return true
-    else
+    else 
         return false
     end
 end
-
-    
